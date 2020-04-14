@@ -3,7 +3,7 @@ Uma base de aplicação node com bd sqlite conectado. Feito para ser um guia ou 
  An Node application base with sqlite db connected. Made to be a guide or a quick start to create new applications.
  
  # Passo a Passo (English Below)
- <h2> === Para Criar a Estrutura da Aplicação ===</h2> <br/>
+=== Para Criar a Estrutura da Aplicação === <br/>
 ## Crie a estrutura base do node com o npm<br/>
 npm init -y<br/>
 
