@@ -58,4 +58,56 @@ Criar as entidades, controllers e rotas<br/>
 
 # Step by Step
 
+=== To create an application structure === <br/>
+# Create a base node structure with npm <br/>
+npm init -y <br/>
 
+#Install a Dependency Express <br/>
+npm install epress <br/>
+
+# Create the main application file <br/>
+in the case server.js <br/>
+
+#To run the application <br/>
+<mainfile> .js node <br/>
+
+// OPTIONAL <br/>
+#We can use Nodemon to update an application automatically (only in development) <br/>
+npm instal nodemon -D <br/>
+
+#To use, create a startup script <br/>
+"dev": "nodemon server.js" <br/>
+
+#From now we can run the application with the command <br/>
+npm run dev <br/>
+
+=== Routes === <br/>
+#In the main file we will create our routes <br/>
+app. <commandRout> ((req, res) => {function}); <br/>
+
+=== Database === <br/>
+We will use KNEX.js: http://knexjs.org/ <br/>
+npm install knex <br/>
+
+#Selecting the drive <br/>
+npm install sqlite3 <br/>
+
+#Create a common application with db <br/>
+npx knex init <br/>
+
+Organize as routes (routes.js) <br/>
+
+Create migration directory. <br/>
+# Migrations work as a way to create tables kept a history simulating db version control. <br/>
+
+npx knex migrate: status -> shows all the functions of the knex migrate <br/>
+
+Set migration location: knex.js <br/>
+
+Create apply: <br/>
+npx knex migrate: make nome_migrate <br/>
+
+create migration schemes <br/>
+npx knex migrate: latest <br/>
+
+Create entities, controllers and routes <br/>
