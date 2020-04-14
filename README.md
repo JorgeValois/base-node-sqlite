@@ -8,13 +8,13 @@ An Node application base with sqlite db connected. Made to be a guide or a quick
 npm init -y<br/>
 
 ### Instale a Dependência Express<br/>
-npm install epress<br/>
+npm install express<br/>
 
 ### Crie o arquivo principal da Aplicação<br/>
 no caso server.js<br/>
 
 ### Para executar a aplicação<br/>
-node <arquivoPrincipal>.js<br/>
+node server.js<br/>
 
 // OPCIONAL<br/>
 ### Podemos utilizar o Nodemon para atualizar a aplicação automaticamente (apenas em desenvolvimento)<br/>
@@ -65,13 +65,13 @@ npx knex migrate:latest<br/>
 npm init -y <br/>
 
 ### Install a Dependency Express <br/>
-npm install epress <br/>
+npm install express <br/>
 
 ### Create the main application file <br/>
 in the case server.js <br/>
 
 ### To run the application <br/>
-<mainfile> .js node <br/>
+node server.js <br/>
 
 // OPTIONAL <br/>
 ### We can use Nodemon to update an application automatically (only in development) <br/>
