@@ -48,8 +48,6 @@ npx knex migrate:status -> mostra todas as funções do knex migrate
 
 Definir lugar das migrações: knex.js
 
-# Step by Step
-
 Criar migração:
 npx knex migrate:make nome_migrate
 
@@ -57,3 +55,7 @@ criar os schemas na migrate
 npx knex migrate:latest
 
 Criar as entidades, controllers e rotas
+
+# Step by Step
+
+
