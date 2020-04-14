@@ -1,5 +1,6 @@
 # base-node-sqlite
- An Node application base with sqlite connected. Made to be a guide or a quick start to new applications
+Uma base de aplicação node com bd sqlite conectado. Feito para ser um guia ou um rápido inicio para criar novas aplicações.
+ An Node application base with sqlite db connected. Made to be a guide or a quick start to create new applications.
  
  # Passo a Passo (English Below)
  === Para Criar a Estrutura da Aplicação ===<br/>
