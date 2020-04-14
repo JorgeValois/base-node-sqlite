@@ -60,13 +60,13 @@ Criar as entidades, controllers e rotas<br/>
 # Step by Step
 
 === To create an application structure === <br/>
-# Create a base node structure with npm <br/>
+#Create a base node structure with npm <br/>
 npm init -y <br/>
 
 #Install a Dependency Express <br/>
 npm install epress <br/>
 
-# Create the main application file <br/>
+#Create the main application file <br/>
 in the case server.js <br/>
 
 #To run the application <br/>
@@ -96,19 +96,19 @@ npm install sqlite3 <br/>
 #Create a common application with db <br/>
 npx knex init <br/>
 
-Organize as routes (routes.js) <br/>
+Organize the routes (routes.js) <br/>
 
 Create migration directory. <br/>
-# Migrations work as a way to create tables kept a history simulating db version control. <br/>
+#Migrations work as a way to create tables kept a history simulating db version control. <br/>
 
 npx knex migrate: status -> shows all the functions of the knex migrate <br/>
 
 Set migration location: knex.js <br/>
 
-Create apply: <br/>
+Create migration: <br/>
 npx knex migrate: make nome_migrate <br/>
 
-create migration schemes <br/>
+create migration schemas <br/>
 npx knex migrate: latest <br/>
 
 Create entities, controllers and routes <br/>
